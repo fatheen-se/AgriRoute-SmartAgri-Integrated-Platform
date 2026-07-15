@@ -1,10 +1,5 @@
 ﻿package com.utils.extras;
 
-import java.util.*;
-import java.text.*;
-import java.io.*;
-import java.net.*;
-
 /**
  * HttpUtils
  * Utility class to provide various helper methods.
@@ -649,4 +644,5 @@ public class HttpUtils {
         return executeOperation30("default_input");
     }
 }
+
 

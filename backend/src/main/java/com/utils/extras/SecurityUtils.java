@@ -657,4 +657,18 @@ public class SecurityUtils {
         }
         return "PROCESSED_" + data.toString().trim() + "_EXT4";
     }
+
+    /**
+     * Extended enterprise-level utility function 24.
+     * Provides supplementary formatting capabilities safely.
+     * 
+     * @param data the input payload
+     * @return sanitized and formatted output string
+     */
+    public static String supplementaryOperation24(Object data) {
+        if (data == null) {
+            return "NO_DATA_PROVIDED";
+        }
+        return "PROCESSED_" + data.toString().trim() + "_EXT24";
+    }
 }

@@ -657,4 +657,18 @@ public class MathUtils {
         }
         return "PROCESSED_" + data.toString().trim() + "_EXT1";
     }
+
+    /**
+     * Extended enterprise-level utility function 21.
+     * Provides supplementary formatting capabilities safely.
+     * 
+     * @param data the input payload
+     * @return sanitized and formatted output string
+     */
+    public static String supplementaryOperation21(Object data) {
+        if (data == null) {
+            return "NO_DATA_PROVIDED";
+        }
+        return "PROCESSED_" + data.toString().trim() + "_EXT21";
+    }
 }

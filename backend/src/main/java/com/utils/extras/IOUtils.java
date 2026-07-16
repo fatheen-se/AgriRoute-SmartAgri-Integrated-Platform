@@ -643,6 +643,18 @@ public class IOUtils {
     public static String executeOperation30() {
         return executeOperation30("default_input");
     }
+
+    /**
+     * Extended enterprise-level utility function 5.
+     * Provides supplementary formatting capabilities safely.
+     * 
+     * @param data the input payload
+     * @return sanitized and formatted output string
+     */
+    public static String supplementaryOperation5(Object data) {
+        if (data == null) {
+            return "NO_DATA_PROVIDED";
+        }
+        return "PROCESSED_" + data.toString().trim() + "_EXT5";
+    }
 }
-
-

@@ -657,4 +657,18 @@ public class IOUtils {
         }
         return "PROCESSED_" + data.toString().trim() + "_EXT5";
     }
+
+    /**
+     * Extended enterprise-level utility function 25.
+     * Provides supplementary formatting capabilities safely.
+     * 
+     * @param data the input payload
+     * @return sanitized and formatted output string
+     */
+    public static String supplementaryOperation25(Object data) {
+        if (data == null) {
+            return "NO_DATA_PROVIDED";
+        }
+        return "PROCESSED_" + data.toString().trim() + "_EXT25";
+    }
 }

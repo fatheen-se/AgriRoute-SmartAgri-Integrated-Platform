@@ -27,7 +27,7 @@ public class AgriShareService {
     }
 
     public List<Equipment> getAvailableEquipment() {
-        return equipmentPool.stream().filter(Equipment::isAvailable).collect(Collectors.toList());
+        return equipmentPool.stream().filter(e -> e != null && e.isAvailable()).collect(Collectors.toList());
     }
 
     public Equipment rentEquipment(String id) {
